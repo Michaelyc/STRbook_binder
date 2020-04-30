@@ -8,7 +8,7 @@ install_version("animation", version = "2.5", repos = "https://mirror.aarnet.edu
 install_version("ape", version = "5.1", repos = "https://mirror.aarnet.edu.au/pub/CRAN/")
 install_version("broom", version = "0.5.0", repos = "https://mirror.aarnet.edu.au/pub/CRAN/")
 install_version("CCA", version = "1.2", repos = "https://mirror.aarnet.edu.au/pub/CRAN/")
-install_version("rlang", version = "0.2.1", repos = "https://mirror.aarnet.edu.au/pub/CRAN/")
+#install_version("rlang", version = "0.2.1", repos = "https://mirror.aarnet.edu.au/pub/CRAN/")
 install_version("dplyr", version = "0.7.6", repos = "https://mirror.aarnet.edu.au/pub/CRAN/")
 install_version("expm", version = "0.999-2", repos = "https://mirror.aarnet.edu.au/pub/CRAN/")
 install_version("fields", version = "9.6", repos = "https://mirror.aarnet.edu.au/pub/CRAN/")
