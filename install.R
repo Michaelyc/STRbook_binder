@@ -41,7 +41,7 @@ install_version("spacetime", version = "1.2-2", repos = "https://mirror.aarnet.e
 install_version("SpatialVx", version = "0.6-3", repos = "https://mirror.aarnet.edu.au/pub/CRAN/")
 install_version("SpatioTemporal", version = "1.1.7", repos = "https://mirror.aarnet.edu.au/pub/CRAN/")
 install_version("SpecsVerification", version = "0.5-2", repos = "https://mirror.aarnet.edu.au/pub/CRAN/")
-install_version("stargazer", version = "0.5-2", repos = "https://mirror.aarnet.edu.au/pub/CRAN/")
+install_version("stargazer", version = "5.2", repos = "https://mirror.aarnet.edu.au/pub/CRAN/")
 install_version("STRbook", version = "0.1.0", repos = "https://mirror.aarnet.edu.au/pub/CRAN/")
 install_version("tidyr", version = "0.8.1", repos = "https://mirror.aarnet.edu.au/pub/CRAN/")
 install_version("verification", version = "1.42", repos = "https://mirror.aarnet.edu.au/pub/CRAN/")
