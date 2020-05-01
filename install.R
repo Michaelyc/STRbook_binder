@@ -1,5 +1,6 @@
-install.packages("devtools", repos = "https://mirror.aarnet.edu.au/pub/CRAN/")
+install.packages("devtools")
 library(devtools)
+install_version("devtools", version = "2.3.0", repos = "http://cran.us.r-project.org")
 install_github("andrewzm/STRbook")
 install_version("ggplot2", version = "3.0.0", repos = "http://cran.us.r-project.org")
 install_version("animation", version = "2.5", repos = "https://mirror.aarnet.edu.au/pub/CRAN/")
