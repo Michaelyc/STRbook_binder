@@ -43,5 +43,5 @@ install_version("stargazer", version = "5.2", repos = "https://mirror.aarnet.edu
 install_version("tidyr", version = "0.8.1", repos = "https://mirror.aarnet.edu.au/pub/CRAN/")
 install_version("verification", version = "1.42", repos = "https://mirror.aarnet.edu.au/pub/CRAN/")
 install_version("xtable", version = "1.8-2", repos = "https://mirror.aarnet.edu.au/pub/CRAN/")
-install_version("rlang", version = "0.2.2", repos = "https://mirror.aarnet.edu.au/pub/CRAN/")
+install_version("rlang", version = "0.3.0", repos = "https://mirror.aarnet.edu.au/pub/CRAN/")
 install_version("dplyr", version = "0.7.6", repos = "https://mirror.aarnet.edu.au/pub/CRAN/")
