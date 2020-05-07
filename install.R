@@ -11,6 +11,7 @@ install_version("CCA", version = "1.2", repos = "https://mirror.aarnet.edu.au/pu
 install_version("EFDR", version = "0.1.1", repos = "https://mirror.aarnet.edu.au/pub/CRAN/")
 install_version("expm", version = "0.999-2", repos = "https://mirror.aarnet.edu.au/pub/CRAN/")
 install_version("fields", version = "9.6", repos = "https://mirror.aarnet.edu.au/pub/CRAN/")
+install.packages("latticeExtra")
 install_version("FRK", version = "0.2.2.1", repos = "http://cran.us.r-project.org")
 install_version("ggmap", version = "2.6.1", repos = "https://mirror.aarnet.edu.au/pub/CRAN/")
 install_version("ggquiver", version = "0.1.0", repos = "https://mirror.aarnet.edu.au/pub/CRAN/")
