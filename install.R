@@ -1,6 +1,6 @@
 install.packages("devtools")
 library(devtools)
-install_version("devtools", version = "2.3.0", repos = "http://cran.us.r-project.org")
+install_version("devtools", version = "1.13.6", repos = "http://cran.us.r-project.org")
 library(devtools)
 install_github("andrewzm/STRbook")
 install_version("ggplot2", version = "3.0.0", repos = "http://cran.us.r-project.org")
