@@ -42,3 +42,4 @@ install_version("dplyr", version = "0.7.6", repos = "https://mirror.aarnet.edu.a
 install_version("FRK", version = "0.2.2.1", repos = "https://mirror.aarnet.edu.au/pub/CRAN/")
 install_version("ggplot2", version = "3.0.0", repos = "https://mirror.aarnet.edu.au/pub/CRAN/")
 install_version("maptools", version = "0.9-3", repos = "https://mirror.aarnet.edu.au/pub/CRAN/")
+install.packages("splancs")
