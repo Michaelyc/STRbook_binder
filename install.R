@@ -1,4 +1,5 @@
 install.packages("devtools")
+library(devtools)
 install.packages("animation")
 install.packages("ape")
 install.packages("expm")
