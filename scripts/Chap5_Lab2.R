@@ -20,6 +20,7 @@ library("ggplot2")
 library("sp")
 library("spacetime")
 library("STRbook")
+library("gridExtra")
 
 ## ------------------------------------------------------------------------
 SIM1 <- simIDE(T = 10, nobs = 100, k_spat_invariant = 1)
