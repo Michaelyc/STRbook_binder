@@ -12,6 +12,7 @@
 ## MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 ## GNU General Public License for more details.
 
+library("STRbook")  
 library("FRK")
 library("IDE")
 library("scoringRules")
@@ -20,7 +21,6 @@ library("dplyr")
 library("ggplot2")
 library("sp")
 library("spacetime")
-library("STRbook")
 library("tidyr")
 
 ## ------------------------------------------------------------------------
