@@ -34,10 +34,19 @@ STObj5 <- as(STObj4[, -14], "STIDF")         # omit t = 14
 STObj5 <- subset(STObj5, !is.na(STObj5$z))   # remove NAs
 
 ## ------------------------------------------------------------------------
+
+warning("Please refer to comments in the script Chap4_Lab2.R on line 40 regarding FRK BAU size")
+
+## WARNING: In the function call below we have replaced
+##      cellsize = c(1, 0.75, 1),
+## with
+##       cellsize = c(2, 1.5, 1),
+## as otherwise the predict() function runs out of memory on this R binder.
+
 BAUs <- auto_BAUs(manifold = STplane(),   # ST field on the plane
                   type = "grid",          # gridded (not "hex")
                   data = STObj5,          # data
-                  cellsize = c(1, 0.75, 1), # BAU cell size
+                  cellsize = c(2, 1.5, 1), # BAU cell size
                   convex = -0.12,           # hull extension
                   tunit = "days")           # time unit is "days"
 

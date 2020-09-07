@@ -97,10 +97,19 @@ G_temporal <- local_basis(manifold = real_line(), # fns on R1
 G <- TensorP(G_spatial, G_temporal)  # take the tensor product
 
 ## ------------------------------------------------------------------------
+
+warning("Please refer to comments in the script Chap6_Lab1.R on line 103 regarding FRK BAU size")
+
+## WARNING: In the function call below we have replaced
+##     cellsize = c(1.65, 2.38, 10), 
+## with
+##     cellsize = c(3.3, 4.76, 10), 
+## as otherwise the predict() function runs out of memory on this R binder.
+
 BAUs <- auto_BAUs(manifold = STplane(),   # ST field on plane
                   type = "grid",          # gridded (not "hex")
                   data = radar_obs,       # data
-                  cellsize = c(1.65, 2.38, 10), # BAU cell size
+                  cellsize = c(3.3, 4.76, 10), # BAU cell size
                   nonconvex_hull = FALSE, # convex boundary
                   convex = 0,             # no hull extension
                   tunit = "mins")         # time unit is "mins"
